@@ -1,0 +1,151 @@
+  .nav .toggleMenu[type="checkbox"]{
+      display: none;
+  }
+  .nav label.toggleMenu{
+      display: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      cursor: pointer;
+      position: relative;     
+  } 
+  .nav label .toggleMenu .fa {
+      position: absolute;
+      top: 15px;
+      left: 12px;
+      font-size: 18px;
+  }
+@media (max-width: 767px) {
+    .nav{
+        overflow: hidden;
+    }
+    .nav ul {
+        display: none;
+    }
+    .nav label.toggleMenu{
+        display: block;
+    }
+    input.toggleMenu:checked ~ ul{
+        display: block;
+    }
+    .information_text{
+        text-align: center;
+        padding: 50px;
+        margin: 3%;
+    }
+    .scrool-main1{
+        padding: 50px;
+        margin: 25%;
+    }
+     .bestDesing{
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 4% 10% 4% 10%;
+    margin-bottom: 30px;
+    margin: 0;
+    }
+    .bestCode{
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 4% 10% 4% 10%;
+    margin-bottom: 30px;
+    margin: 0;
+    }
+    .button-2 h3 {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        transform: translate(-18%, -20%);
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    .web {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .web img{
+        width: 200px;
+    }
+    .digital{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .digital img{
+        width: 200px;
+    }
+    .portfolio-section{
+        display: flex;
+        justify-content: flex-start;
+        max-width: 100%;
+        flex-direction: column;
+        height: auto;
+        flex-grow: 1;
+    }
+    .section-one img {
+        width: 100%;
+    }
+    .section-two img {
+        width: 100%;
+    }
+    .section three img{
+        width: 100%;
+    }
+    .about-section {
+         padding: 0px;
+    }
+    .about-text{
+        line-height: 180%;
+    text-align: center;
+   width: auto;
+    }
+    .Jhon-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+	color:white;
+    padding: 5px;
+    }
+    .Jhon-main img{
+        /*padding-left: 10%;*/
+        justify-content: center;
+    }
+    .Jhon-main p{
+        width: auto;
+       text-align: center;
+    }
+    .Jhon-main h1{
+        width: auto;
+    }
+    .Jhon-1{
+    width: auto;
+    padding: 0 0%;
+    }
+    
+    .Jhon-2{
+     width: auto;
+     padding: 0 0%;
+    }
+     .Jhon-3{
+     width: auto;
+     padding: 0 0%;
+    }
+    .Jhon-4{
+    width: auto;
+    padding: 0 0%;
+    }
+.map img{
+    width:100%;
+	height: auto;
+}
+footer{
+	color: #a7acbc;
+	text-align: center;
+	padding: 0px;
+}
+}

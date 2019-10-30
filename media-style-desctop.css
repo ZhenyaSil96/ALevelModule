@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+@media (min-width:768px)and (max-width: 1024px) {
+    
+    .scrool-text {
+        color: white;
+        text-align: center;
+        padding: 0;
+    }
+    .scrool-main1 {
+        padding: 50px;
+        margin: 25%;
+    }
+    .bestDesing{
+        color: white;
+        width: 50%;
+        height: auto;
+        padding: 4% 10% 4% 10%;
+        margin-bottom: 30px;
+        margin: 0;
+        }
+        .bestCode{
+            color: white;
+        width: 50%;
+        height: auto;
+        padding: 4% 10% 4% 10%;
+        margin-bottom: 30px;
+        margin: 0;
+        }
+        .button-2 h3{
+            position: absolute;
+            top: 1%;
+            left: 1%;
+            transform: translate(-10%, -20%);
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+        .what-main{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px 0px;
+        }
+        .web{
+            display: flex;
+            justify-content: center;
+        padding: 20px 0px;
+        }
+        .digital{
+            display: flex;
+            justify-content: center;
+        padding: 20px 0px;
+        } 
+        .about-text{
+            line-height: 180%;
+        text-align: center;
+       width: auto;
+        }
+
+        .portfolio-section{
+            display: flex;
+            justify-content: flex-start;
+            max-width: 100%;
+            flex-direction: column;
+            height: auto;
+            flex-grow: 1;
+        }
+        .section-one img {
+            width: 100%;
+        }
+        .section-two img {
+            width: 100%;
+        }
+        .section three img{
+            width: 100%;
+        }
+        .about-section {
+             padding: 0px;
+        }
+        .Jhon-main{
+            display: flex;
+        justify-content: center;
+        flex-direction: row;
+        color:white;
+        padding: 5px 15px;
+        }
+        .Jhon-main img{
+            padding: 5px 2px;
+            justify-content: center;
+        }
+        .Jhon-main p{
+            width: auto;
+           text-align: center;
+        }
+        .Jhon-main h1{
+            width: auto;
+        }
+        .Jhon-1 {
+            padding: 0 0%;
+            max-width: 100%;
+        }
+        .Jhon-2{
+         width: auto;
+         padding: 0 0%;
+        }
+         .Jhon-3{
+         width: auto;
+         padding: 0 0%;
+        }
+        .Jhon-4{
+        width: auto;
+        padding: 0 0%;
+        }
+        .map img{
+            width:100%;
+            height: auto;
+        }
+        footer{
+            color: #a7acbc;
+            text-align: center;
+            padding: 0px;
+        }
+}
